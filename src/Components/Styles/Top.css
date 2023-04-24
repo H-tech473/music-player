@@ -1,0 +1,52 @@
+.top{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display : flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.top .logoSection{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.top .logoSection span{
+  font-size: 25px;
+  left: 10px;
+  position: relative;
+  background-color: blue;
+  background-image: linear-gradient(45deg, #f000db, #621882);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+  
+.unordered-list{
+    height: 100%;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-evenly
+  }
+.unordered-list li{
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 10px;
+    list-style: none;
+    font-size: 15px;
+  }
+
+.unordered-list li:hover{
+  background-color:#0bc4cf;
+  color: #fff;
+  transition: 0.3s ease;
+  cursor: pointer;
+}

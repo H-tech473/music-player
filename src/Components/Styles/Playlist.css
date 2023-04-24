@@ -1,0 +1,60 @@
+.playList{
+    height:100%;
+    width: 200px;
+    min-width: 200px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.playList .title{
+    margin-top: 20px;
+    /* background-color: gray; */
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    position: relative;
+}
+
+.playList ul{
+    height: 240px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    display: block;
+    flex-direction: column;
+}
+.playList ul li{
+    /* background-color: white; */
+    left: 0;
+    color: white;
+    padding-left: 20px;
+    top: 10px;
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+}
+.playList ul li i:nth-child(1){
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+}
+.playList ul li .i2{
+    position: absolute;
+    right: 12px;
+    top: 2px;
+}
+.playList ul li span{
+    left: 25px;
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.playList ul li:hover{
+    background-color: #0bc4cf;
+    color: #0a172d;
+    cursor: pointer;
+    transition: .3s ease;
+}

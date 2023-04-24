@@ -1,0 +1,32 @@
+.Main{
+    height: calc(100%-50px);
+    width: 100px;
+    flex-grow: 1;
+}
+
+.unordered-list2{
+    height: 50px;
+    position: relative;
+    width: 300px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.unordered-list2 li{
+    list-style: none;
+}
+
+.unordered-list2 li .List{
+    text-decoration: none;
+    line-height: 50px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #fff
+}
+
+.unordered-list2 li .List:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,8 @@
+.Trending{
+    height: calc(100% - 30px);
+    width: calc(100vw - 200px);
+    position: relative;
+    overflow: scroll;
+    top: 30px;
+}
+

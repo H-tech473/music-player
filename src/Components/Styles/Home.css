@@ -1,0 +1,11 @@
+.Home{
+    height: calc(100% - 30px);
+    width: calc(100vw - 200px);
+    position: relative;
+    overflow: scroll;
+    top: 30px;
+}
+
+.Block{
+    left: calc(var(--i)*30px)
+}
